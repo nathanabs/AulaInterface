@@ -16,9 +16,9 @@ public class AluguelService {
 
     private Double precoPorHora;
     private Double precoPorDia;
-    private ImpostoBrasilService impostoBrasil;
+    private IImposto impostoBrasil;
 
-    public AluguelService(Double precoPorHora, Double precoPorDia, ImpostoBrasilService impostoBrasil) {
+    public AluguelService(Double precoPorHora, Double precoPorDia, IImposto impostoBrasil) {
         this.precoPorHora = precoPorHora;
         this.precoPorDia = precoPorDia;
         this.impostoBrasil = impostoBrasil;

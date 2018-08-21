@@ -9,7 +9,7 @@ package service;
  *
  * @author Nathan
  */
-public class ImpostoBrasilService {
+public class ImpostoBrasilService implements IImposto{
 
     public double imposto(double quantidade) {
         if (quantidade <= 100) {
